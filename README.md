@@ -12,3 +12,11 @@ carefully designed with a purpose in mind. Nothing is treated as an
 after-thought. If you encounter things which do not work or don't work well,
 please open a ticket and we'll try and get those things fixed as soon as
 possible.
+
+## This is Ugly!
+
+Yes, I understand. Primordial's basic controls are ugly. This is all according
+to plan. Primordial is not meant to provide great looking components, other
+libraries can do that. I can recommend plenty of them, MaterialUI, antd and many
+others provide beautiful components for building your applications. Primordial
+provides a functional Wrapper which you can use to work with these components.
