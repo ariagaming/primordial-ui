@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+  styleguideDir: "docs",
   ignore: ["src/components/*.js", "src/components/state/*"],
   context: {
     stateHelpers: path.resolve(__dirname, "./src/components/state/state"),

@@ -12,7 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "styleguide:dev": "npx styleguidist server"
+    "styleguide:dev": "npx styleguidist server",
+    "push": "npx styleguidist build;git add .;git commit -m \"dist deploy\";git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
