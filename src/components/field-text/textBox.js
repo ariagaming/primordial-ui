@@ -1,14 +1,10 @@
 import React from "react";
-import { ID } from "./../helpers";
+import { ID } from "../../helpers";
 
 const dummyOnchange = () => {};
 
-export const TextBox = ({
-  label = "empty",
-  value,
-  onChange = dummyOnchange
-}) => {
-  const id = ID();
+export const TextBox = ({ id, label = "empty", value, onChange }) => {
+  const __id = id || ID();
   if (value === undefined) {
     /*
     Because the value is undefined we will assume that the control is
@@ -24,16 +20,16 @@ export const TextBox = ({
     }
     return (
       <div className="field field__textbox">
-        <label htmlFor={id}>{label}</label>
-        <input id={id} />
+        <label htmlFor={__id}>{label}</label>
+        <input id={__id} />
       </div>
     );
   } else {
     return (
       <div className="field field__textbox">
-        <label htmlFor={id}>{label}</label>
+        <label htmlFor={__id}>{label}</label>
         <input
-          id={id}
+          id={__id}
           onChange={e => onChange(e.target.value || "")}
           value={value}
         />

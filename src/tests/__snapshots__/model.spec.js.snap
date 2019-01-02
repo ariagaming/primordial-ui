@@ -1,0 +1,2543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should be able to generate a UI 1`] = `
+Object {
+  "instance": Component {
+    "_reactInternalFiber": FiberNode {
+      "_debugID": 3,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": Object {
+        "fileName": "/Users/baudin/Projects/primordial-ui/src/tests/model.spec.js",
+        "lineNumber": 29,
+      },
+      "alternate": null,
+      "child": FiberNode {
+        "_debugID": 4,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": Object {
+          "fileName": "/Users/baudin/Projects/primordial-ui/src/utils/formBuilder.js",
+          "lineNumber": 22,
+        },
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 5,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/baudin/Projects/primordial-ui/src/utils/formBuilder.js",
+            "lineNumber": 37,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 7,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field/field.js",
+              "lineNumber": 9,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 8,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field-text/textBox.js",
+                "lineNumber": 29,
+              },
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field-text/textBox.js",
+                  "lineNumber": 30,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 11,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": null,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "name",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "name",
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": Object {
+                    "isHidden": false,
+                    "tag": "TEXT",
+                    "text": "name",
+                  },
+                  "tag": 6,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "elementType": "label",
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "name",
+                  "htmlFor": "person__id__name",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "name",
+                  "htmlFor": "person__id__name",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 10,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field-text/textBox.js",
+                    "lineNumber": 31,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": "input",
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "id": "person__id__name",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "id": "person__id__name",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": Object {
+                    "children": Array [],
+                    "isHidden": false,
+                    "props": Object {
+                      "id": "person__id__name",
+                      "onChange": [Function],
+                      "value": "",
+                    },
+                    "rootContainerInstance": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "name",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "name",
+                                    "htmlFor": "person__id__name",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "label",
+                                },
+                                [Circular],
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": Array [
+                                  <label
+                                    htmlFor="person__id__name"
+                                  >
+                                    name
+                                  </label>,
+                                  <input
+                                    id="person__id__name"
+                                    onChange={[Function]}
+                                    value=""
+                                  />,
+                                ],
+                                "className": "field field__textbox",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "div",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "age",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "age",
+                                    "htmlFor": "person__id__age",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "label",
+                                },
+                                Object {
+                                  "children": Array [],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "id": "person__id__age",
+                                    "onChange": [Function],
+                                    "type": "number",
+                                    "value": 0,
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "input",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": Array [
+                                  <label
+                                    htmlFor="person__id__age"
+                                  >
+                                    age
+                                  </label>,
+                                  <input
+                                    id="person__id__age"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value={0}
+                                  />,
+                                ],
+                                "className": "field field__textbox",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "div",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": Array [
+                              <Field
+                                id="person__id__name"
+                                label="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                              />,
+                              <Field
+                                id="person__id__age"
+                                label="age"
+                                onChange={[Function]}
+                                type="number"
+                                value={0}
+                              />,
+                            ],
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "div",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "tag": "INSTANCE",
+                    "type": "input",
+                  },
+                  "tag": 5,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "stateNode": Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "name",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "name",
+                    "htmlFor": "person__id__name",
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              [Circular],
+                              Object {
+                                "children": Array [],
+                                "isHidden": false,
+                                "props": Object {
+                                  "id": "person__id__name",
+                                  "onChange": [Function],
+                                  "value": "",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "input",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": Array [
+                                <label
+                                  htmlFor="person__id__name"
+                                >
+                                  name
+                                </label>,
+                                <input
+                                  id="person__id__name"
+                                  onChange={[Function]}
+                                  value=""
+                                />,
+                              ],
+                              "className": "field field__textbox",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "div",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "age",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "age",
+                                  "htmlFor": "person__id__age",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "label",
+                              },
+                              Object {
+                                "children": Array [],
+                                "isHidden": false,
+                                "props": Object {
+                                  "id": "person__id__age",
+                                  "onChange": [Function],
+                                  "type": "number",
+                                  "value": 0,
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "input",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": Array [
+                                <label
+                                  htmlFor="person__id__age"
+                                >
+                                  age
+                                </label>,
+                                <input
+                                  id="person__id__age"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={0}
+                                />,
+                              ],
+                              "className": "field field__textbox",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "div",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": Array [
+                            <Field
+                              id="person__id__name"
+                              label="name"
+                              onChange={[Function]}
+                              type="text"
+                              value=""
+                            />,
+                            <Field
+                              id="person__id__age"
+                              label="age"
+                              onChange={[Function]}
+                              type="number"
+                              value={0}
+                            />,
+                          ],
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "div",
+                      },
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "label",
+                },
+                "tag": 5,
+                "type": "label",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <label
+                    htmlFor="person__id__name"
+                  >
+                    name
+                  </label>,
+                  <input
+                    id="person__id__name"
+                    onChange={[Function]}
+                    value=""
+                  />,
+                ],
+                "className": "field field__textbox",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <label
+                    htmlFor="person__id__name"
+                  >
+                    name
+                  </label>,
+                  <input
+                    id="person__id__name"
+                    onChange={[Function]}
+                    value=""
+                  />,
+                ],
+                "className": "field field__textbox",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "name",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "name",
+                      "htmlFor": "person__id__name",
+                    },
+                    "rootContainerInstance": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            [Circular],
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "age",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "age",
+                                    "htmlFor": "person__id__age",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "label",
+                                },
+                                Object {
+                                  "children": Array [],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "id": "person__id__age",
+                                    "onChange": [Function],
+                                    "type": "number",
+                                    "value": 0,
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "input",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": Array [
+                                  <label
+                                    htmlFor="person__id__age"
+                                  >
+                                    age
+                                  </label>,
+                                  <input
+                                    id="person__id__age"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value={0}
+                                  />,
+                                ],
+                                "className": "field field__textbox",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "div",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": Array [
+                              <Field
+                                id="person__id__name"
+                                label="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                              />,
+                              <Field
+                                id="person__id__age"
+                                label="age"
+                                onChange={[Function]}
+                                type="number"
+                                value={0}
+                              />,
+                            ],
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "div",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "tag": "INSTANCE",
+                    "type": "label",
+                  },
+                  Object {
+                    "children": Array [],
+                    "isHidden": false,
+                    "props": Object {
+                      "id": "person__id__name",
+                      "onChange": [Function],
+                      "value": "",
+                    },
+                    "rootContainerInstance": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            [Circular],
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "age",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "age",
+                                    "htmlFor": "person__id__age",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "label",
+                                },
+                                Object {
+                                  "children": Array [],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "id": "person__id__age",
+                                    "onChange": [Function],
+                                    "type": "number",
+                                    "value": 0,
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "input",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": Array [
+                                  <label
+                                    htmlFor="person__id__age"
+                                  >
+                                    age
+                                  </label>,
+                                  <input
+                                    id="person__id__age"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value={0}
+                                  />,
+                                ],
+                                "className": "field field__textbox",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "div",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": Array [
+                              <Field
+                                id="person__id__name"
+                                label="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                              />,
+                              <Field
+                                id="person__id__age"
+                                label="age"
+                                onChange={[Function]}
+                                type="number"
+                                value={0}
+                              />,
+                            ],
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "div",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "tag": "INSTANCE",
+                    "type": "input",
+                  },
+                ],
+                "isHidden": false,
+                "props": Object {
+                  "children": Array [
+                    <label
+                      htmlFor="person__id__name"
+                    >
+                      name
+                    </label>,
+                    <input
+                      id="person__id__name"
+                      onChange={[Function]}
+                      value=""
+                    />,
+                  ],
+                  "className": "field field__textbox",
+                },
+                "rootContainerInstance": Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        [Circular],
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "isHidden": false,
+                                  "tag": "TEXT",
+                                  "text": "age",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": "age",
+                                "htmlFor": "person__id__age",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "label",
+                            },
+                            Object {
+                              "children": Array [],
+                              "isHidden": false,
+                              "props": Object {
+                                "id": "person__id__age",
+                                "onChange": [Function],
+                                "type": "number",
+                                "value": 0,
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "input",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": Array [
+                              <label
+                                htmlFor="person__id__age"
+                              >
+                                age
+                              </label>,
+                              <input
+                                id="person__id__age"
+                                onChange={[Function]}
+                                type="number"
+                                value={0}
+                              />,
+                            ],
+                            "className": "field field__textbox",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "div",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": Array [
+                          <Field
+                            id="person__id__name"
+                            label="name"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          />,
+                          <Field
+                            id="person__id__age"
+                            label="age"
+                            onChange={[Function]}
+                            type="number"
+                            value={0}
+                          />,
+                        ],
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "div",
+                    },
+                  ],
+                  "createNodeMock": [Function],
+                  "tag": "CONTAINER",
+                },
+                "tag": "INSTANCE",
+                "type": "div",
+              },
+              "tag": 5,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "id": "person__id__name",
+              "label": "name",
+              "onChange": [Function],
+              "value": "",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "id": "person__id__name",
+              "label": "name",
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": null,
+            "tag": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": "name",
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "id": "person__id__name",
+            "label": "name",
+            "onChange": [Function],
+            "type": "text",
+            "value": "",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "id": "person__id__name",
+            "label": "name",
+            "onChange": [Function],
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": FiberNode {
+            "_debugID": 6,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/baudin/Projects/primordial-ui/src/utils/formBuilder.js",
+              "lineNumber": 26,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 12,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field/field.js",
+                "lineNumber": 12,
+              },
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 13,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field-number/numberBox.js",
+                  "lineNumber": 29,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 14,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field-number/numberBox.js",
+                    "lineNumber": 30,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 16,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "age",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "age",
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "age",
+                    },
+                    "tag": 6,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "elementType": "label",
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "age",
+                    "htmlFor": "person__id__age",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "age",
+                    "htmlFor": "person__id__age",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 15,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/baudin/Projects/primordial-ui/src/components/field-number/numberBox.js",
+                      "lineNumber": 31,
+                    },
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "elementType": "input",
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "id": "person__id__age",
+                      "onChange": [Function],
+                      "type": "number",
+                      "value": 0,
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "id": "person__id__age",
+                      "onChange": [Function],
+                      "type": "number",
+                      "value": 0,
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": Object {
+                      "children": Array [],
+                      "isHidden": false,
+                      "props": Object {
+                        "id": "person__id__age",
+                        "onChange": [Function],
+                        "type": "number",
+                        "value": 0,
+                      },
+                      "rootContainerInstance": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "children": Array [
+                                      Object {
+                                        "isHidden": false,
+                                        "tag": "TEXT",
+                                        "text": "name",
+                                      },
+                                    ],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "children": "name",
+                                      "htmlFor": "person__id__name",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "label",
+                                  },
+                                  Object {
+                                    "children": Array [],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "id": "person__id__name",
+                                      "onChange": [Function],
+                                      "value": "",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "input",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": Array [
+                                    <label
+                                      htmlFor="person__id__name"
+                                    >
+                                      name
+                                    </label>,
+                                    <input
+                                      id="person__id__name"
+                                      onChange={[Function]}
+                                      value=""
+                                    />,
+                                  ],
+                                  "className": "field field__textbox",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "div",
+                              },
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "children": Array [
+                                      Object {
+                                        "isHidden": false,
+                                        "tag": "TEXT",
+                                        "text": "age",
+                                      },
+                                    ],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "children": "age",
+                                      "htmlFor": "person__id__age",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "label",
+                                  },
+                                  [Circular],
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": Array [
+                                    <label
+                                      htmlFor="person__id__age"
+                                    >
+                                      age
+                                    </label>,
+                                    <input
+                                      id="person__id__age"
+                                      onChange={[Function]}
+                                      type="number"
+                                      value={0}
+                                    />,
+                                  ],
+                                  "className": "field field__textbox",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "div",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": Array [
+                                <Field
+                                  id="person__id__name"
+                                  label="name"
+                                  onChange={[Function]}
+                                  type="text"
+                                  value=""
+                                />,
+                                <Field
+                                  id="person__id__age"
+                                  label="age"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={0}
+                                />,
+                              ],
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "div",
+                          },
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "tag": "INSTANCE",
+                      "type": "input",
+                    },
+                    "tag": 5,
+                    "type": "input",
+                    "updateQueue": null,
+                  },
+                  "stateNode": Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "age",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "age",
+                      "htmlFor": "person__id__age",
+                    },
+                    "rootContainerInstance": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "isHidden": false,
+                                      "tag": "TEXT",
+                                      "text": "name",
+                                    },
+                                  ],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "children": "name",
+                                    "htmlFor": "person__id__name",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "label",
+                                },
+                                Object {
+                                  "children": Array [],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "id": "person__id__name",
+                                    "onChange": [Function],
+                                    "value": "",
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "input",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": Array [
+                                  <label
+                                    htmlFor="person__id__name"
+                                  >
+                                    name
+                                  </label>,
+                                  <input
+                                    id="person__id__name"
+                                    onChange={[Function]}
+                                    value=""
+                                  />,
+                                ],
+                                "className": "field field__textbox",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "div",
+                            },
+                            Object {
+                              "children": Array [
+                                [Circular],
+                                Object {
+                                  "children": Array [],
+                                  "isHidden": false,
+                                  "props": Object {
+                                    "id": "person__id__age",
+                                    "onChange": [Function],
+                                    "type": "number",
+                                    "value": 0,
+                                  },
+                                  "rootContainerInstance": [Circular],
+                                  "tag": "INSTANCE",
+                                  "type": "input",
+                                },
+                              ],
+                              "isHidden": false,
+                              "props": Object {
+                                "children": Array [
+                                  <label
+                                    htmlFor="person__id__age"
+                                  >
+                                    age
+                                  </label>,
+                                  <input
+                                    id="person__id__age"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value={0}
+                                  />,
+                                ],
+                                "className": "field field__textbox",
+                              },
+                              "rootContainerInstance": [Circular],
+                              "tag": "INSTANCE",
+                              "type": "div",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": Array [
+                              <Field
+                                id="person__id__name"
+                                label="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                              />,
+                              <Field
+                                id="person__id__age"
+                                label="age"
+                                onChange={[Function]}
+                                type="number"
+                                value={0}
+                              />,
+                            ],
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "div",
+                        },
+                      ],
+                      "createNodeMock": [Function],
+                      "tag": "CONTAINER",
+                    },
+                    "tag": "INSTANCE",
+                    "type": "label",
+                  },
+                  "tag": 5,
+                  "type": "label",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <label
+                      htmlFor="person__id__age"
+                    >
+                      age
+                    </label>,
+                    <input
+                      id="person__id__age"
+                      onChange={[Function]}
+                      type="number"
+                      value={0}
+                    />,
+                  ],
+                  "className": "field field__textbox",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <label
+                      htmlFor="person__id__age"
+                    >
+                      age
+                    </label>,
+                    <input
+                      id="person__id__age"
+                      onChange={[Function]}
+                      type="number"
+                      value={0}
+                    />,
+                  ],
+                  "className": "field field__textbox",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "age",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "age",
+                        "htmlFor": "person__id__age",
+                      },
+                      "rootContainerInstance": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "children": Array [
+                                      Object {
+                                        "isHidden": false,
+                                        "tag": "TEXT",
+                                        "text": "name",
+                                      },
+                                    ],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "children": "name",
+                                      "htmlFor": "person__id__name",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "label",
+                                  },
+                                  Object {
+                                    "children": Array [],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "id": "person__id__name",
+                                      "onChange": [Function],
+                                      "value": "",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "input",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": Array [
+                                    <label
+                                      htmlFor="person__id__name"
+                                    >
+                                      name
+                                    </label>,
+                                    <input
+                                      id="person__id__name"
+                                      onChange={[Function]}
+                                      value=""
+                                    />,
+                                  ],
+                                  "className": "field field__textbox",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "div",
+                              },
+                              [Circular],
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": Array [
+                                <Field
+                                  id="person__id__name"
+                                  label="name"
+                                  onChange={[Function]}
+                                  type="text"
+                                  value=""
+                                />,
+                                <Field
+                                  id="person__id__age"
+                                  label="age"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={0}
+                                />,
+                              ],
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "div",
+                          },
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "tag": "INSTANCE",
+                      "type": "label",
+                    },
+                    Object {
+                      "children": Array [],
+                      "isHidden": false,
+                      "props": Object {
+                        "id": "person__id__age",
+                        "onChange": [Function],
+                        "type": "number",
+                        "value": 0,
+                      },
+                      "rootContainerInstance": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "children": Array [
+                                      Object {
+                                        "isHidden": false,
+                                        "tag": "TEXT",
+                                        "text": "name",
+                                      },
+                                    ],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "children": "name",
+                                      "htmlFor": "person__id__name",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "label",
+                                  },
+                                  Object {
+                                    "children": Array [],
+                                    "isHidden": false,
+                                    "props": Object {
+                                      "id": "person__id__name",
+                                      "onChange": [Function],
+                                      "value": "",
+                                    },
+                                    "rootContainerInstance": [Circular],
+                                    "tag": "INSTANCE",
+                                    "type": "input",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": Array [
+                                    <label
+                                      htmlFor="person__id__name"
+                                    >
+                                      name
+                                    </label>,
+                                    <input
+                                      id="person__id__name"
+                                      onChange={[Function]}
+                                      value=""
+                                    />,
+                                  ],
+                                  "className": "field field__textbox",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "div",
+                              },
+                              [Circular],
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": Array [
+                                <Field
+                                  id="person__id__name"
+                                  label="name"
+                                  onChange={[Function]}
+                                  type="text"
+                                  value=""
+                                />,
+                                <Field
+                                  id="person__id__age"
+                                  label="age"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={0}
+                                />,
+                              ],
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "div",
+                          },
+                        ],
+                        "createNodeMock": [Function],
+                        "tag": "CONTAINER",
+                      },
+                      "tag": "INSTANCE",
+                      "type": "input",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": Array [
+                      <label
+                        htmlFor="person__id__age"
+                      >
+                        age
+                      </label>,
+                      <input
+                        id="person__id__age"
+                        onChange={[Function]}
+                        type="number"
+                        value={0}
+                      />,
+                    ],
+                    "className": "field field__textbox",
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "isHidden": false,
+                                    "tag": "TEXT",
+                                    "text": "name",
+                                  },
+                                ],
+                                "isHidden": false,
+                                "props": Object {
+                                  "children": "name",
+                                  "htmlFor": "person__id__name",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "label",
+                              },
+                              Object {
+                                "children": Array [],
+                                "isHidden": false,
+                                "props": Object {
+                                  "id": "person__id__name",
+                                  "onChange": [Function],
+                                  "value": "",
+                                },
+                                "rootContainerInstance": [Circular],
+                                "tag": "INSTANCE",
+                                "type": "input",
+                              },
+                            ],
+                            "isHidden": false,
+                            "props": Object {
+                              "children": Array [
+                                <label
+                                  htmlFor="person__id__name"
+                                >
+                                  name
+                                </label>,
+                                <input
+                                  id="person__id__name"
+                                  onChange={[Function]}
+                                  value=""
+                                />,
+                              ],
+                              "className": "field field__textbox",
+                            },
+                            "rootContainerInstance": [Circular],
+                            "tag": "INSTANCE",
+                            "type": "div",
+                          },
+                          [Circular],
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": Array [
+                            <Field
+                              id="person__id__name"
+                              label="name"
+                              onChange={[Function]}
+                              type="text"
+                              value=""
+                            />,
+                            <Field
+                              id="person__id__age"
+                              label="age"
+                              onChange={[Function]}
+                              type="number"
+                              value={0}
+                            />,
+                          ],
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "div",
+                      },
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "div",
+                },
+                "tag": 5,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "elementType": [Function],
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "id": "person__id__age",
+                "label": "age",
+                "onChange": [Function],
+                "value": 0,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "id": "person__id__age",
+                "label": "age",
+                "onChange": [Function],
+                "value": 0,
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": null,
+              "tag": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 1,
+            "key": "age",
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "id": "person__id__age",
+              "label": "age",
+              "onChange": [Function],
+              "type": "number",
+              "value": 0,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "id": "person__id__age",
+              "label": "age",
+              "onChange": [Function],
+              "type": "number",
+              "value": 0,
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": null,
+            "tag": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "stateNode": null,
+          "tag": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 0,
+        "elementType": "div",
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": Array [
+            <Field
+              id="person__id__name"
+              label="name"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />,
+            <Field
+              id="person__id__age"
+              label="age"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />,
+          ],
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": Array [
+            <Field
+              id="person__id__name"
+              label="name"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />,
+            <Field
+              id="person__id__age"
+              label="age"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />,
+          ],
+        },
+        "ref": null,
+        "return": [Circular],
+        "sibling": null,
+        "stateNode": Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "name",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "name",
+                    "htmlFor": "person__id__name",
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      [Circular],
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "label",
+                },
+                Object {
+                  "children": Array [],
+                  "isHidden": false,
+                  "props": Object {
+                    "id": "person__id__name",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      [Circular],
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "input",
+                },
+              ],
+              "isHidden": false,
+              "props": Object {
+                "children": Array [
+                  <label
+                    htmlFor="person__id__name"
+                  >
+                    name
+                  </label>,
+                  <input
+                    id="person__id__name"
+                    onChange={[Function]}
+                    value=""
+                  />,
+                ],
+                "className": "field field__textbox",
+              },
+              "rootContainerInstance": Object {
+                "children": Array [
+                  [Circular],
+                ],
+                "createNodeMock": [Function],
+                "tag": "CONTAINER",
+              },
+              "tag": "INSTANCE",
+              "type": "div",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "isHidden": false,
+                      "tag": "TEXT",
+                      "text": "age",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": "age",
+                    "htmlFor": "person__id__age",
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      [Circular],
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "label",
+                },
+                Object {
+                  "children": Array [],
+                  "isHidden": false,
+                  "props": Object {
+                    "id": "person__id__age",
+                    "onChange": [Function],
+                    "type": "number",
+                    "value": 0,
+                  },
+                  "rootContainerInstance": Object {
+                    "children": Array [
+                      [Circular],
+                    ],
+                    "createNodeMock": [Function],
+                    "tag": "CONTAINER",
+                  },
+                  "tag": "INSTANCE",
+                  "type": "input",
+                },
+              ],
+              "isHidden": false,
+              "props": Object {
+                "children": Array [
+                  <label
+                    htmlFor="person__id__age"
+                  >
+                    age
+                  </label>,
+                  <input
+                    id="person__id__age"
+                    onChange={[Function]}
+                    type="number"
+                    value={0}
+                  />,
+                ],
+                "className": "field field__textbox",
+              },
+              "rootContainerInstance": Object {
+                "children": Array [
+                  [Circular],
+                ],
+                "createNodeMock": [Function],
+                "tag": "CONTAINER",
+              },
+              "tag": "INSTANCE",
+              "type": "div",
+            },
+          ],
+          "isHidden": false,
+          "props": Object {
+            "children": Array [
+              <Field
+                id="person__id__name"
+                label="name"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />,
+              <Field
+                id="person__id__age"
+                label="age"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />,
+            ],
+          },
+          "rootContainerInstance": Object {
+            "children": Array [
+              [Circular],
+            ],
+            "createNodeMock": [Function],
+            "tag": "CONTAINER",
+          },
+          "tag": "INSTANCE",
+          "type": "div",
+        },
+        "tag": 5,
+        "type": "div",
+        "updateQueue": null,
+      },
+      "childExpirationTime": 0,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstContextDependency": null,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {},
+      "memoizedState": Object {
+        "model": Object {},
+        "onFormModelChanged": [Function],
+      },
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {},
+      "ref": null,
+      "return": FiberNode {
+        "_debugID": 1,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "alternate": FiberNode {
+          "_debugID": 1,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": [Circular],
+          "child": null,
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "elementType": null,
+          "expirationTime": 1073741823,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": null,
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "sibling": null,
+          "stateNode": Object {
+            "containerInfo": Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "name",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "name",
+                            "htmlFor": "person__id__name",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "label",
+                        },
+                        Object {
+                          "children": Array [],
+                          "isHidden": false,
+                          "props": Object {
+                            "id": "person__id__name",
+                            "onChange": [Function],
+                            "value": "",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "input",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": Array [
+                          <label
+                            htmlFor="person__id__name"
+                          >
+                            name
+                          </label>,
+                          <input
+                            id="person__id__name"
+                            onChange={[Function]}
+                            value=""
+                          />,
+                        ],
+                        "className": "field field__textbox",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "div",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "isHidden": false,
+                              "tag": "TEXT",
+                              "text": "age",
+                            },
+                          ],
+                          "isHidden": false,
+                          "props": Object {
+                            "children": "age",
+                            "htmlFor": "person__id__age",
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "label",
+                        },
+                        Object {
+                          "children": Array [],
+                          "isHidden": false,
+                          "props": Object {
+                            "id": "person__id__age",
+                            "onChange": [Function],
+                            "type": "number",
+                            "value": 0,
+                          },
+                          "rootContainerInstance": [Circular],
+                          "tag": "INSTANCE",
+                          "type": "input",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": Array [
+                          <label
+                            htmlFor="person__id__age"
+                          >
+                            age
+                          </label>,
+                          <input
+                            id="person__id__age"
+                            onChange={[Function]}
+                            type="number"
+                            value={0}
+                          />,
+                        ],
+                        "className": "field field__textbox",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "div",
+                    },
+                  ],
+                  "isHidden": false,
+                  "props": Object {
+                    "children": Array [
+                      <Field
+                        id="person__id__name"
+                        label="name"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />,
+                      <Field
+                        id="person__id__age"
+                        label="age"
+                        onChange={[Function]}
+                        type="number"
+                        value={0}
+                      />,
+                    ],
+                  },
+                  "rootContainerInstance": [Circular],
+                  "tag": "INSTANCE",
+                  "type": "div",
+                },
+              ],
+              "createNodeMock": [Function],
+              "tag": "CONTAINER",
+            },
+            "context": Object {},
+            "current": [Circular],
+            "didError": false,
+            "earliestPendingTime": 0,
+            "earliestSuspendedTime": 0,
+            "expirationTime": 0,
+            "finishedWork": null,
+            "firstBatch": null,
+            "hydrate": false,
+            "latestPendingTime": 0,
+            "latestPingedTime": 0,
+            "latestSuspendedTime": 0,
+            "nextExpirationTimeToWorkOn": 0,
+            "nextScheduledRoot": null,
+            "pendingChildren": null,
+            "pendingCommitExpirationTime": 0,
+            "pendingContext": null,
+            "pingCache": null,
+            "timeoutHandle": -1,
+          },
+          "tag": 3,
+          "type": null,
+          "updateQueue": Object {
+            "baseState": null,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <Component />,
+              },
+              "tag": 0,
+            },
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": Object {
+              "callback": null,
+              "expirationTime": 1073741823,
+              "next": null,
+              "nextEffect": null,
+              "payload": Object {
+                "element": <Component />,
+              },
+              "tag": 0,
+            },
+          },
+        },
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "effectTag": 0,
+        "elementType": null,
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": [Circular],
+        "index": 0,
+        "key": null,
+        "lastEffect": [Circular],
+        "memoizedProps": null,
+        "memoizedState": Object {
+          "element": <Component />,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "name",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "name",
+                          "htmlFor": "person__id__name",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "label",
+                      },
+                      Object {
+                        "children": Array [],
+                        "isHidden": false,
+                        "props": Object {
+                          "id": "person__id__name",
+                          "onChange": [Function],
+                          "value": "",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "input",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": Array [
+                        <label
+                          htmlFor="person__id__name"
+                        >
+                          name
+                        </label>,
+                        <input
+                          id="person__id__name"
+                          onChange={[Function]}
+                          value=""
+                        />,
+                      ],
+                      "className": "field field__textbox",
+                    },
+                    "rootContainerInstance": [Circular],
+                    "tag": "INSTANCE",
+                    "type": "div",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "isHidden": false,
+                            "tag": "TEXT",
+                            "text": "age",
+                          },
+                        ],
+                        "isHidden": false,
+                        "props": Object {
+                          "children": "age",
+                          "htmlFor": "person__id__age",
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "label",
+                      },
+                      Object {
+                        "children": Array [],
+                        "isHidden": false,
+                        "props": Object {
+                          "id": "person__id__age",
+                          "onChange": [Function],
+                          "type": "number",
+                          "value": 0,
+                        },
+                        "rootContainerInstance": [Circular],
+                        "tag": "INSTANCE",
+                        "type": "input",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": Array [
+                        <label
+                          htmlFor="person__id__age"
+                        >
+                          age
+                        </label>,
+                        <input
+                          id="person__id__age"
+                          onChange={[Function]}
+                          type="number"
+                          value={0}
+                        />,
+                      ],
+                      "className": "field field__textbox",
+                    },
+                    "rootContainerInstance": [Circular],
+                    "tag": "INSTANCE",
+                    "type": "div",
+                  },
+                ],
+                "isHidden": false,
+                "props": Object {
+                  "children": Array [
+                    <Field
+                      id="person__id__name"
+                      label="name"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />,
+                    <Field
+                      id="person__id__age"
+                      label="age"
+                      onChange={[Function]}
+                      type="number"
+                      value={0}
+                    />,
+                  ],
+                },
+                "rootContainerInstance": [Circular],
+                "tag": "INSTANCE",
+                "type": "div",
+              },
+            ],
+            "createNodeMock": [Function],
+            "tag": "CONTAINER",
+          },
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "element": <Component />,
+          },
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
+      },
+      "sibling": null,
+      "stateNode": [Circular],
+      "tag": 1,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "_reactInternalInstance": Object {},
+    "context": Object {},
+    "props": Object {},
+    "refs": Object {},
+    "state": Object {
+      "model": Object {},
+      "onFormModelChanged": [Function],
+    },
+    "updater": Object {
+      "enqueueForceUpdate": [Function],
+      "enqueueReplaceState": [Function],
+      "enqueueSetState": [Function],
+      "isMounted": [Function],
+    },
+  },
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Field
+          id="person__id__name"
+          label="name"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />,
+        <Field
+          id="person__id__age"
+          label="age"
+          onChange={[Function]}
+          type="number"
+          value={0}
+        />,
+      ],
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "id": "person__id__name",
+          "label": "name",
+          "onChange": [Function],
+          "type": "text",
+          "value": "",
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {
+            "id": "person__id__name",
+            "label": "name",
+            "onChange": [Function],
+            "value": "",
+          },
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="person__id__name"
+                >
+                  name
+                </label>,
+                <input
+                  id="person__id__name"
+                  onChange={[Function]}
+                  value=""
+                />,
+              ],
+              "className": "field field__textbox",
+            },
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "name",
+                  "htmlFor": "person__id__name",
+                },
+                "rendered": Array [
+                  "name",
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "person__id__name",
+                  "onChange": [Function],
+                  "value": "",
+                },
+                "rendered": Array [],
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "id": "person__id__age",
+          "label": "age",
+          "onChange": [Function],
+          "type": "number",
+          "value": 0,
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {
+            "id": "person__id__age",
+            "label": "age",
+            "onChange": [Function],
+            "value": 0,
+          },
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="person__id__age"
+                >
+                  age
+                </label>,
+                <input
+                  id="person__id__age"
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />,
+              ],
+              "className": "field field__textbox",
+            },
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "age",
+                  "htmlFor": "person__id__age",
+                },
+                "rendered": Array [
+                  "age",
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "person__id__age",
+                  "onChange": [Function],
+                  "type": "number",
+                  "value": 0,
+                },
+                "rendered": Array [],
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
