@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should be able to generate a UI 1`] = `
+exports[`Should be able to generate a Form 1`] = `
 Object {
   "instance": Component {
     "_reactInternalFiber": FiberNode {
@@ -18,7 +18,7 @@ Object {
         "_debugOwner": [Circular],
         "_debugSource": Object {
           "fileName": "/Users/baudin/Projects/primordial-ui/src/utils/formBuilder.js",
-          "lineNumber": 22,
+          "lineNumber": 23,
         },
         "alternate": null,
         "child": FiberNode {
@@ -27,7 +27,7 @@ Object {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/Users/baudin/Projects/primordial-ui/src/utils/formBuilder.js",
-            "lineNumber": 37,
+            "lineNumber": 35,
           },
           "alternate": null,
           "child": FiberNode {
@@ -134,7 +134,7 @@ Object {
                   "memoizedProps": Object {
                     "id": "person__id__name",
                     "onChange": [Function],
-                    "value": "",
+                    "value": null,
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -142,7 +142,7 @@ Object {
                   "pendingProps": Object {
                     "id": "person__id__name",
                     "onChange": [Function],
-                    "value": "",
+                    "value": null,
                   },
                   "ref": null,
                   "return": [Circular],
@@ -153,7 +153,7 @@ Object {
                     "props": Object {
                       "id": "person__id__name",
                       "onChange": [Function],
-                      "value": "",
+                      "value": null,
                     },
                     "rootContainerInstance": Object {
                       "children": Array [
@@ -191,7 +191,7 @@ Object {
                                   <input
                                     id="person__id__name"
                                     onChange={[Function]}
-                                    value=""
+                                    value={null}
                                   />,
                                 ],
                                 "className": "field field__textbox",
@@ -226,7 +226,7 @@ Object {
                                     "id": "person__id__age",
                                     "onChange": [Function],
                                     "type": "number",
-                                    "value": 0,
+                                    "value": null,
                                   },
                                   "rootContainerInstance": [Circular],
                                   "tag": "INSTANCE",
@@ -245,7 +245,7 @@ Object {
                                     id="person__id__age"
                                     onChange={[Function]}
                                     type="number"
-                                    value={0}
+                                    value={null}
                                   />,
                                 ],
                                 "className": "field field__textbox",
@@ -263,14 +263,14 @@ Object {
                                 label="name"
                                 onChange={[Function]}
                                 type="text"
-                                value=""
+                                value={null}
                               />,
                               <Field
                                 id="person__id__age"
                                 label="age"
                                 onChange={[Function]}
                                 type="number"
-                                value={0}
+                                value={null}
                               />,
                             ],
                           },
@@ -315,7 +315,7 @@ Object {
                                 "props": Object {
                                   "id": "person__id__name",
                                   "onChange": [Function],
-                                  "value": "",
+                                  "value": null,
                                 },
                                 "rootContainerInstance": [Circular],
                                 "tag": "INSTANCE",
@@ -333,7 +333,7 @@ Object {
                                 <input
                                   id="person__id__name"
                                   onChange={[Function]}
-                                  value=""
+                                  value={null}
                                 />,
                               ],
                               "className": "field field__textbox",
@@ -368,7 +368,7 @@ Object {
                                   "id": "person__id__age",
                                   "onChange": [Function],
                                   "type": "number",
-                                  "value": 0,
+                                  "value": null,
                                 },
                                 "rootContainerInstance": [Circular],
                                 "tag": "INSTANCE",
@@ -387,7 +387,7 @@ Object {
                                   id="person__id__age"
                                   onChange={[Function]}
                                   type="number"
-                                  value={0}
+                                  value={null}
                                 />,
                               ],
                               "className": "field field__textbox",
@@ -405,14 +405,14 @@ Object {
                               label="name"
                               onChange={[Function]}
                               type="text"
-                              value=""
+                              value={null}
                             />,
                             <Field
                               id="person__id__age"
                               label="age"
                               onChange={[Function]}
                               type="number"
-                              value={0}
+                              value={null}
                             />,
                           ],
                         },
@@ -450,7 +450,7 @@ Object {
                   <input
                     id="person__id__name"
                     onChange={[Function]}
-                    value=""
+                    value={null}
                   />,
                 ],
                 "className": "field field__textbox",
@@ -468,7 +468,7 @@ Object {
                   <input
                     id="person__id__name"
                     onChange={[Function]}
-                    value=""
+                    value={null}
                   />,
                 ],
                 "className": "field field__textbox",
@@ -522,7 +522,7 @@ Object {
                                     "id": "person__id__age",
                                     "onChange": [Function],
                                     "type": "number",
-                                    "value": 0,
+                                    "value": null,
                                   },
                                   "rootContainerInstance": [Circular],
                                   "tag": "INSTANCE",
@@ -541,7 +541,7 @@ Object {
                                     id="person__id__age"
                                     onChange={[Function]}
                                     type="number"
-                                    value={0}
+                                    value={null}
                                   />,
                                 ],
                                 "className": "field field__textbox",
@@ -559,14 +559,14 @@ Object {
                                 label="name"
                                 onChange={[Function]}
                                 type="text"
-                                value=""
+                                value={null}
                               />,
                               <Field
                                 id="person__id__age"
                                 label="age"
                                 onChange={[Function]}
                                 type="number"
-                                value={0}
+                                value={null}
                               />,
                             ],
                           },
@@ -587,7 +587,7 @@ Object {
                     "props": Object {
                       "id": "person__id__name",
                       "onChange": [Function],
-                      "value": "",
+                      "value": null,
                     },
                     "rootContainerInstance": Object {
                       "children": Array [
@@ -620,7 +620,7 @@ Object {
                                     "id": "person__id__age",
                                     "onChange": [Function],
                                     "type": "number",
-                                    "value": 0,
+                                    "value": null,
                                   },
                                   "rootContainerInstance": [Circular],
                                   "tag": "INSTANCE",
@@ -639,7 +639,7 @@ Object {
                                     id="person__id__age"
                                     onChange={[Function]}
                                     type="number"
-                                    value={0}
+                                    value={null}
                                   />,
                                 ],
                                 "className": "field field__textbox",
@@ -657,14 +657,14 @@ Object {
                                 label="name"
                                 onChange={[Function]}
                                 type="text"
-                                value=""
+                                value={null}
                               />,
                               <Field
                                 id="person__id__age"
                                 label="age"
                                 onChange={[Function]}
                                 type="number"
-                                value={0}
+                                value={null}
                               />,
                             ],
                           },
@@ -691,7 +691,7 @@ Object {
                     <input
                       id="person__id__name"
                       onChange={[Function]}
-                      value=""
+                      value={null}
                     />,
                   ],
                   "className": "field field__textbox",
@@ -727,7 +727,7 @@ Object {
                                 "id": "person__id__age",
                                 "onChange": [Function],
                                 "type": "number",
-                                "value": 0,
+                                "value": null,
                               },
                               "rootContainerInstance": [Circular],
                               "tag": "INSTANCE",
@@ -746,7 +746,7 @@ Object {
                                 id="person__id__age"
                                 onChange={[Function]}
                                 type="number"
-                                value={0}
+                                value={null}
                               />,
                             ],
                             "className": "field field__textbox",
@@ -764,14 +764,14 @@ Object {
                             label="name"
                             onChange={[Function]}
                             type="text"
-                            value=""
+                            value={null}
                           />,
                           <Field
                             id="person__id__age"
                             label="age"
                             onChange={[Function]}
                             type="number"
-                            value={0}
+                            value={null}
                           />,
                         ],
                       },
@@ -803,7 +803,7 @@ Object {
               "id": "person__id__name",
               "label": "name",
               "onChange": [Function],
-              "value": "",
+              "value": null,
             },
             "memoizedState": null,
             "mode": 0,
@@ -812,7 +812,7 @@ Object {
               "id": "person__id__name",
               "label": "name",
               "onChange": [Function],
-              "value": "",
+              "value": null,
             },
             "ref": null,
             "return": [Circular],
@@ -836,7 +836,7 @@ Object {
             "label": "name",
             "onChange": [Function],
             "type": "text",
-            "value": "",
+            "value": null,
           },
           "memoizedState": null,
           "mode": 0,
@@ -846,7 +846,7 @@ Object {
             "label": "name",
             "onChange": [Function],
             "type": "text",
-            "value": "",
+            "value": null,
           },
           "ref": null,
           "return": [Circular],
@@ -856,7 +856,7 @@ Object {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/baudin/Projects/primordial-ui/src/utils/formBuilder.js",
-              "lineNumber": 26,
+              "lineNumber": 33,
             },
             "alternate": null,
             "child": FiberNode {
@@ -964,7 +964,7 @@ Object {
                       "id": "person__id__age",
                       "onChange": [Function],
                       "type": "number",
-                      "value": 0,
+                      "value": null,
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -973,7 +973,7 @@ Object {
                       "id": "person__id__age",
                       "onChange": [Function],
                       "type": "number",
-                      "value": 0,
+                      "value": null,
                     },
                     "ref": null,
                     "return": [Circular],
@@ -985,7 +985,7 @@ Object {
                         "id": "person__id__age",
                         "onChange": [Function],
                         "type": "number",
-                        "value": 0,
+                        "value": null,
                       },
                       "rootContainerInstance": Object {
                         "children": Array [
@@ -1016,7 +1016,7 @@ Object {
                                     "props": Object {
                                       "id": "person__id__name",
                                       "onChange": [Function],
-                                      "value": "",
+                                      "value": null,
                                     },
                                     "rootContainerInstance": [Circular],
                                     "tag": "INSTANCE",
@@ -1034,7 +1034,7 @@ Object {
                                     <input
                                       id="person__id__name"
                                       onChange={[Function]}
-                                      value=""
+                                      value={null}
                                     />,
                                   ],
                                   "className": "field field__textbox",
@@ -1076,7 +1076,7 @@ Object {
                                       id="person__id__age"
                                       onChange={[Function]}
                                       type="number"
-                                      value={0}
+                                      value={null}
                                     />,
                                   ],
                                   "className": "field field__textbox",
@@ -1094,14 +1094,14 @@ Object {
                                   label="name"
                                   onChange={[Function]}
                                   type="text"
-                                  value=""
+                                  value={null}
                                 />,
                                 <Field
                                   id="person__id__age"
                                   label="age"
                                   onChange={[Function]}
                                   type="number"
-                                  value={0}
+                                  value={null}
                                 />,
                               ],
                             },
@@ -1162,7 +1162,7 @@ Object {
                                   "props": Object {
                                     "id": "person__id__name",
                                     "onChange": [Function],
-                                    "value": "",
+                                    "value": null,
                                   },
                                   "rootContainerInstance": [Circular],
                                   "tag": "INSTANCE",
@@ -1180,7 +1180,7 @@ Object {
                                   <input
                                     id="person__id__name"
                                     onChange={[Function]}
-                                    value=""
+                                    value={null}
                                   />,
                                 ],
                                 "className": "field field__textbox",
@@ -1199,7 +1199,7 @@ Object {
                                     "id": "person__id__age",
                                     "onChange": [Function],
                                     "type": "number",
-                                    "value": 0,
+                                    "value": null,
                                   },
                                   "rootContainerInstance": [Circular],
                                   "tag": "INSTANCE",
@@ -1218,7 +1218,7 @@ Object {
                                     id="person__id__age"
                                     onChange={[Function]}
                                     type="number"
-                                    value={0}
+                                    value={null}
                                   />,
                                 ],
                                 "className": "field field__textbox",
@@ -1236,14 +1236,14 @@ Object {
                                 label="name"
                                 onChange={[Function]}
                                 type="text"
-                                value=""
+                                value={null}
                               />,
                               <Field
                                 id="person__id__age"
                                 label="age"
                                 onChange={[Function]}
                                 type="number"
-                                value={0}
+                                value={null}
                               />,
                             ],
                           },
@@ -1282,7 +1282,7 @@ Object {
                       id="person__id__age"
                       onChange={[Function]}
                       type="number"
-                      value={0}
+                      value={null}
                     />,
                   ],
                   "className": "field field__textbox",
@@ -1301,7 +1301,7 @@ Object {
                       id="person__id__age"
                       onChange={[Function]}
                       type="number"
-                      value={0}
+                      value={null}
                     />,
                   ],
                   "className": "field field__textbox",
@@ -1353,7 +1353,7 @@ Object {
                                     "props": Object {
                                       "id": "person__id__name",
                                       "onChange": [Function],
-                                      "value": "",
+                                      "value": null,
                                     },
                                     "rootContainerInstance": [Circular],
                                     "tag": "INSTANCE",
@@ -1371,7 +1371,7 @@ Object {
                                     <input
                                       id="person__id__name"
                                       onChange={[Function]}
-                                      value=""
+                                      value={null}
                                     />,
                                   ],
                                   "className": "field field__textbox",
@@ -1390,14 +1390,14 @@ Object {
                                   label="name"
                                   onChange={[Function]}
                                   type="text"
-                                  value=""
+                                  value={null}
                                 />,
                                 <Field
                                   id="person__id__age"
                                   label="age"
                                   onChange={[Function]}
                                   type="number"
-                                  value={0}
+                                  value={null}
                                 />,
                               ],
                             },
@@ -1419,7 +1419,7 @@ Object {
                         "id": "person__id__age",
                         "onChange": [Function],
                         "type": "number",
-                        "value": 0,
+                        "value": null,
                       },
                       "rootContainerInstance": Object {
                         "children": Array [
@@ -1450,7 +1450,7 @@ Object {
                                     "props": Object {
                                       "id": "person__id__name",
                                       "onChange": [Function],
-                                      "value": "",
+                                      "value": null,
                                     },
                                     "rootContainerInstance": [Circular],
                                     "tag": "INSTANCE",
@@ -1468,7 +1468,7 @@ Object {
                                     <input
                                       id="person__id__name"
                                       onChange={[Function]}
-                                      value=""
+                                      value={null}
                                     />,
                                   ],
                                   "className": "field field__textbox",
@@ -1487,14 +1487,14 @@ Object {
                                   label="name"
                                   onChange={[Function]}
                                   type="text"
-                                  value=""
+                                  value={null}
                                 />,
                                 <Field
                                   id="person__id__age"
                                   label="age"
                                   onChange={[Function]}
                                   type="number"
-                                  value={0}
+                                  value={null}
                                 />,
                               ],
                             },
@@ -1522,7 +1522,7 @@ Object {
                         id="person__id__age"
                         onChange={[Function]}
                         type="number"
-                        value={0}
+                        value={null}
                       />,
                     ],
                     "className": "field field__textbox",
@@ -1556,7 +1556,7 @@ Object {
                                 "props": Object {
                                   "id": "person__id__name",
                                   "onChange": [Function],
-                                  "value": "",
+                                  "value": null,
                                 },
                                 "rootContainerInstance": [Circular],
                                 "tag": "INSTANCE",
@@ -1574,7 +1574,7 @@ Object {
                                 <input
                                   id="person__id__name"
                                   onChange={[Function]}
-                                  value=""
+                                  value={null}
                                 />,
                               ],
                               "className": "field field__textbox",
@@ -1593,14 +1593,14 @@ Object {
                               label="name"
                               onChange={[Function]}
                               type="text"
-                              value=""
+                              value={null}
                             />,
                             <Field
                               id="person__id__age"
                               label="age"
                               onChange={[Function]}
                               type="number"
-                              value={0}
+                              value={null}
                             />,
                           ],
                         },
@@ -1632,7 +1632,7 @@ Object {
                 "id": "person__id__age",
                 "label": "age",
                 "onChange": [Function],
-                "value": 0,
+                "value": null,
               },
               "memoizedState": null,
               "mode": 0,
@@ -1641,7 +1641,7 @@ Object {
                 "id": "person__id__age",
                 "label": "age",
                 "onChange": [Function],
-                "value": 0,
+                "value": null,
               },
               "ref": null,
               "return": [Circular],
@@ -1665,7 +1665,7 @@ Object {
               "label": "age",
               "onChange": [Function],
               "type": "number",
-              "value": 0,
+              "value": null,
             },
             "memoizedState": null,
             "mode": 0,
@@ -1675,7 +1675,7 @@ Object {
               "label": "age",
               "onChange": [Function],
               "type": "number",
-              "value": 0,
+              "value": null,
             },
             "ref": null,
             "return": [Circular],
@@ -1706,14 +1706,14 @@ Object {
               label="name"
               onChange={[Function]}
               type="text"
-              value=""
+              value={null}
             />,
             <Field
               id="person__id__age"
               label="age"
               onChange={[Function]}
               type="number"
-              value={0}
+              value={null}
             />,
           ],
         },
@@ -1727,14 +1727,14 @@ Object {
               label="name"
               onChange={[Function]}
               type="text"
-              value=""
+              value={null}
             />,
             <Field
               id="person__id__age"
               label="age"
               onChange={[Function]}
               type="number"
-              value={0}
+              value={null}
             />,
           ],
         },
@@ -1774,7 +1774,7 @@ Object {
                   "props": Object {
                     "id": "person__id__name",
                     "onChange": [Function],
-                    "value": "",
+                    "value": null,
                   },
                   "rootContainerInstance": Object {
                     "children": Array [
@@ -1798,7 +1798,7 @@ Object {
                   <input
                     id="person__id__name"
                     onChange={[Function]}
-                    value=""
+                    value={null}
                   />,
                 ],
                 "className": "field field__textbox",
@@ -1845,7 +1845,7 @@ Object {
                     "id": "person__id__age",
                     "onChange": [Function],
                     "type": "number",
-                    "value": 0,
+                    "value": null,
                   },
                   "rootContainerInstance": Object {
                     "children": Array [
@@ -1870,7 +1870,7 @@ Object {
                     id="person__id__age"
                     onChange={[Function]}
                     type="number"
-                    value={0}
+                    value={null}
                   />,
                 ],
                 "className": "field field__textbox",
@@ -1894,14 +1894,14 @@ Object {
                 label="name"
                 onChange={[Function]}
                 type="text"
-                value=""
+                value={null}
               />,
               <Field
                 id="person__id__age"
                 label="age"
                 onChange={[Function]}
                 type="number"
-                value={0}
+                value={null}
               />,
             ],
           },
@@ -1996,7 +1996,7 @@ Object {
                           "props": Object {
                             "id": "person__id__name",
                             "onChange": [Function],
-                            "value": "",
+                            "value": null,
                           },
                           "rootContainerInstance": [Circular],
                           "tag": "INSTANCE",
@@ -2014,7 +2014,7 @@ Object {
                           <input
                             id="person__id__name"
                             onChange={[Function]}
-                            value=""
+                            value={null}
                           />,
                         ],
                         "className": "field field__textbox",
@@ -2049,7 +2049,7 @@ Object {
                             "id": "person__id__age",
                             "onChange": [Function],
                             "type": "number",
-                            "value": 0,
+                            "value": null,
                           },
                           "rootContainerInstance": [Circular],
                           "tag": "INSTANCE",
@@ -2068,7 +2068,7 @@ Object {
                             id="person__id__age"
                             onChange={[Function]}
                             type="number"
-                            value={0}
+                            value={null}
                           />,
                         ],
                         "className": "field field__textbox",
@@ -2086,14 +2086,14 @@ Object {
                         label="name"
                         onChange={[Function]}
                         type="text"
-                        value=""
+                        value={null}
                       />,
                       <Field
                         id="person__id__age"
                         label="age"
                         onChange={[Function]}
                         type="number"
-                        value={0}
+                        value={null}
                       />,
                     ],
                   },
@@ -2207,7 +2207,7 @@ Object {
                         "props": Object {
                           "id": "person__id__name",
                           "onChange": [Function],
-                          "value": "",
+                          "value": null,
                         },
                         "rootContainerInstance": [Circular],
                         "tag": "INSTANCE",
@@ -2225,7 +2225,7 @@ Object {
                         <input
                           id="person__id__name"
                           onChange={[Function]}
-                          value=""
+                          value={null}
                         />,
                       ],
                       "className": "field field__textbox",
@@ -2260,7 +2260,7 @@ Object {
                           "id": "person__id__age",
                           "onChange": [Function],
                           "type": "number",
-                          "value": 0,
+                          "value": null,
                         },
                         "rootContainerInstance": [Circular],
                         "tag": "INSTANCE",
@@ -2279,7 +2279,7 @@ Object {
                           id="person__id__age"
                           onChange={[Function]}
                           type="number"
-                          value={0}
+                          value={null}
                         />,
                       ],
                       "className": "field field__textbox",
@@ -2297,14 +2297,14 @@ Object {
                       label="name"
                       onChange={[Function]}
                       type="text"
-                      value=""
+                      value={null}
                     />,
                     <Field
                       id="person__id__age"
                       label="age"
                       onChange={[Function]}
                       type="number"
-                      value={0}
+                      value={null}
                     />,
                   ],
                 },
@@ -2385,14 +2385,14 @@ Object {
           label="name"
           onChange={[Function]}
           type="text"
-          value=""
+          value={null}
         />,
         <Field
           id="person__id__age"
           label="age"
           onChange={[Function]}
           type="number"
-          value={0}
+          value={null}
         />,
       ],
     },
@@ -2405,7 +2405,7 @@ Object {
           "label": "name",
           "onChange": [Function],
           "type": "text",
-          "value": "",
+          "value": null,
         },
         "rendered": Object {
           "instance": null,
@@ -2414,7 +2414,7 @@ Object {
             "id": "person__id__name",
             "label": "name",
             "onChange": [Function],
-            "value": "",
+            "value": null,
           },
           "rendered": Object {
             "instance": null,
@@ -2429,7 +2429,7 @@ Object {
                 <input
                   id="person__id__name"
                   onChange={[Function]}
-                  value=""
+                  value={null}
                 />,
               ],
               "className": "field field__textbox",
@@ -2453,7 +2453,7 @@ Object {
                 "props": Object {
                   "id": "person__id__name",
                   "onChange": [Function],
-                  "value": "",
+                  "value": null,
                 },
                 "rendered": Array [],
                 "type": "input",
@@ -2473,7 +2473,7 @@ Object {
           "label": "age",
           "onChange": [Function],
           "type": "number",
-          "value": 0,
+          "value": null,
         },
         "rendered": Object {
           "instance": null,
@@ -2482,7 +2482,7 @@ Object {
             "id": "person__id__age",
             "label": "age",
             "onChange": [Function],
-            "value": 0,
+            "value": null,
           },
           "rendered": Object {
             "instance": null,
@@ -2498,7 +2498,7 @@ Object {
                   id="person__id__age"
                   onChange={[Function]}
                   type="number"
-                  value={0}
+                  value={null}
                 />,
               ],
               "className": "field field__textbox",
@@ -2523,7 +2523,7 @@ Object {
                   "id": "person__id__age",
                   "onChange": [Function],
                   "type": "number",
-                  "value": 0,
+                  "value": null,
                 },
                 "rendered": Array [],
                 "type": "input",

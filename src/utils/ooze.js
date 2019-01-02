@@ -91,6 +91,10 @@ export class Field {
       this.type = config;
       this.name = name;
       this.required = true;
+    } else if (typeof config === "object") {
+      Object.assign(this, config);
+      this.name = config.name || name;
+      console.log(this);
     }
   }
 

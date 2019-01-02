@@ -30,7 +30,7 @@ export const NumberBox = ({ id, label = "empty", value, onChange }) => {
         <label htmlFor={__id}>{label}</label>
         <input
           id={__id}
-          onChange={e => onChange(e.target.value || "")}
+          onChange={e => onChange(e.target.value ? +e.target.value : null)}
           value={value}
           type="number"
         />

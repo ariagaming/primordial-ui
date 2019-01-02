@@ -35,3 +35,21 @@ const Component = withState(
 
 <Component />;
 ```
+
+We can expand on the configuration:
+
+```jsx
+const { withState } = stateHelpers;
+const { createModel } = ooze;
+const { createForm } = require("./formBuilder");
+const config = {
+  name: String,
+  age: {
+    type: Number,
+    label: "Ageee"
+  }
+};
+const model = createModel(config);
+const Form = createForm(model, m => console.log(m));
+<Form />;
+```
